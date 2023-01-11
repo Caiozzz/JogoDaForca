@@ -29,8 +29,6 @@ function iniciarJogo() {
 	
 	desenhaBase();
 	desenhaTracos();
-	
-	console.log(palavraSecreta);
 
 	document.onkeydown = (evento) => {
 		let letra = evento.key.toUpperCase();
