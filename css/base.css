@@ -1,0 +1,50 @@
+body {
+    background-color: #F3F5FC;
+    padding: 40px 40px 0;
+    min-height: calc(100vh - 80px);
+    font-family: "Inter", sans-serif;
+}
+
+button {
+    padding: 24px;
+    width: 317px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.botoes-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    margin-top: 200px;
+}
+.botoes-home .btn-iniciar {
+    background-color: #0A3871;
+    color: #F3F5FC;
+}
+
+.forca{
+    display: none;
+}
+
+#forca{
+    /* background-color: red; */
+    display: block;
+
+    margin: 0 auto;
+}
+
+.botoes-jogo {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
